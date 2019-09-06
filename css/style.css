@@ -1,0 +1,46 @@
+.hidden {
+  display: none;
+}
+
+.list-view {
+  display: none;
+}
+
+.icon-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem;
+}
+
+.icon-view li {
+  cursor: pointer;
+}
+
+@media (min-width: 760px) {
+  .list-view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+  }
+
+  .icon-view {
+      display: none;
+  }
+}
+
+.mobile-menu {
+  width: 100%;
+  text-align: center;
+}
+
+.mobile-menu li {
+  padding: 0.7rem;
+  cursor: pointer;
+}
+
+.mobile-menu li:hover {
+  background: rgb(187, 58, 58);
+  color: white;
+}
