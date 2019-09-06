@@ -1,3 +1,4 @@
+//Menu fucntionality
 const menuButton = document.querySelector('#menu-button');
 const mobileMenu = document.querySelector('#mobile-menu');
 
@@ -10,3 +11,8 @@ window.addEventListener('resize', () => {
         mobileMenu.classList.add('hidden')
     }
 })
+
+// Basic reference variable
+const tagline = document.querySelector('.tagline')
+
+console.log(tagline.textContent);
