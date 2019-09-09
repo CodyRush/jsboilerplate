@@ -12,7 +12,15 @@ window.addEventListener('resize', () => {
     }
 })
 
-// Basic reference variable
-const tagline = document.querySelector('.tagline')
+// DOM Level selectors
+const confirmButton = document.querySelector('#confirm-button');
 
-console.log(tagline.textContent);
+confirmButton.addEventListener('click', () => {
+    console.log("CLICK");
+})
+
+
+
+
+
+
