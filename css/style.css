@@ -2,9 +2,13 @@
   display: none;
 }
 
+.icon-reset {
+  width: 2.5rem;
+}
+
 .list-view {
   display: none;
-  background: #3242BF;
+  background: rgb(71, 87, 230);
   color: #fff;
   font-size: 1.4rem;
 }
@@ -15,7 +19,7 @@
   align-items: center;
   padding: 2rem;
   font-size: 1.4rem;
-  background: #3242BF;
+  background: rgb(71, 87, 230);
   color: #fff;
 }
 
@@ -52,4 +56,37 @@
 .mobile-menu li:hover {
   background: #212C80;
   color: white;
+}
+
+/* CALCULATOR STYLES */
+.product-calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  margin: 1.2rem;
+  background: rgb(192, 192, 192);
+  box-shadow: 3px 3px 5px 0px rgba(179,179,179,1);
+}
+
+.product-calculator h2 {
+  font-size: 1.7rem;
+}
+
+.product-calculator input {
+  margin: 1.5rem;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.product-calculator button {
+  background: #333;
+  font-size: 1.1rem;
+  color: #61dafb;
+  padding: 0.5rem 1.3rem;
+  margin: 1.2rem;
+  border: none;
+  border-radius: 10px;
 }

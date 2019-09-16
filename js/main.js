@@ -12,11 +12,14 @@ window.addEventListener('resize', () => {
     }
 })
 
-// DOM Level selectors
-const confirmButton = document.querySelector('#confirm-button');
+// Calculator 
 
-confirmButton.addEventListener('click', () => {
-    console.log("CLICK");
+const productName = document.querySelector('.product');
+const productBid = document.querySelector('.bid');
+const submitButton = document.querySelector('.submit-button');
+
+submitButton.addEventListener('click', (e) => {
+    console.log(e);
 })
 
 
